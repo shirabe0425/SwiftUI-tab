@@ -16,7 +16,7 @@ struct ContentView: View {
                 Text("名前：藤原詩")
             }.tabItem { Text("基本情報") }.tag(1)
             
-            Text("Tab Content 2").tabItem { Text("趣味") }.tag(2)
+            Text("趣味").tabItem { Text("趣味") }.tag(2)
         }
     }
 }
